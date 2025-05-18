@@ -1,0 +1,16 @@
+name: ml_gcw2_group6
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.7
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+    - yellowbrick
+    - ISLP 
